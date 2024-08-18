@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+.form-container {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+}
+
+.form-input:focus {
+    border-color: #888;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-button {
+    background-color: #FFC107;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #FF9900;
+}
+
+.form-container h2 {
+    color: #FFC107;
+    margin-bottom: 20px;
+}
+
+.form-container p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form-container .form-label {
+    margin-bottom: 10px;
+}
+
+.form-container .form-input {
+    margin-bottom: 20px;
+}
+
+.form-container .form-button {
+    margin-top: 20px;
+    display: block;
+    margin: 20px auto;
+}
+
+.form-button-submit {
+    background-color: #c49302;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+.form-button-submit:hover {
+    background-color: #FF9900;
+}

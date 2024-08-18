@@ -1,0 +1,245 @@
+body{
+    background-color: black;
+}
+
+nav div{borde: solid white;}
+main div{borde: solid white;}
+
+nav{
+    display: grid;
+    grid-template-columns: 250px 4fr 1fr;
+    grid-template-rows: 175px;
+}
+
+#nav-logo{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#logo1{
+    width: 160px;
+    height: 170px;
+    margin-left: 50px;
+}
+
+#nav-list{
+        
+}
+
+#nav-list ul{text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: "Rozha One", serif;
+    height: 100%;
+    align-items: center;
+}
+
+#nav-list li{
+    margin-right: 20px;
+    margin: 50px;
+}
+
+#nav-list a{
+    color: white;
+    text-decoration: underline;
+    transition: white 0.2s ease;
+}
+
+#nav-list a:hover{
+    color: gray;
+}
+
+#nav-user{
+    height: 75px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+#main-img{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(153.75deg, rgba(0, 0, 0, 0.2) 17.96%, rgba(0, 0, 0, 0.171967) 17.96%, rgba(0, 0, 0, 0.160767) 22.35%, 
+  rgba(0, 0, 0, 0.142833) 28.33%, rgba(0, 0, 0, 0.125795) 34%, rgba(0, 0, 0, 0.104245) 51.08%, rgba(52, 52, 52, 0.0897239) 71.8%, 
+  rgba(255, 255, 255, 0) 87.15%), url(image\ 5.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr 0.5fr;
+    grid-template-rows: 150px 550px 150px 550px;
+    row-gap: 20px;
+}
+
+#title-main-1{
+    grid-column: 1/5;
+    grid-row: 1;
+}
+
+#title-main-2{
+    grid-column: 1/5;
+    grid-row: 3;
+}
+
+.title-main{
+    color: #c88a36;
+    font-family: 'Parisienne';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    text-decoration-line: underline; 
+}
+
+#txtbox-1-main{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #d9d9d9;
+    box-shadow: inset 0px 4px 4px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 31px;
+    justify-content: left;
+}
+
+#img-1-main{
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url(image\ 7.png);
+    background-size: unset;
+}
+
+#txtbox-2-main{
+    grid-column: 3;
+    grid-row: 4;
+    background-color: #d9d9d9;
+    box-shadow: inset 0px 4px 4px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 31px;
+    justify-content: right;
+}
+
+#img-2-main{    
+    grid-column: 2;
+    grid-row: 4;
+    background-image: url(image\ 8.png);
+    background-size: cover;
+}
+
+#banner-column-left{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 20px;
+    grid-row: 1fr 1fr 1fr;
+    margin-left: 0cap;
+}
+
+#banner-column-right{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 20px;
+    grid-row: 1fr 1fr 1fr;
+    margin-left: 100px;
+}
+
+hr{
+    color: white;
+    margin-top: 150px;
+}
+
+footer {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+  
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.footer-text {
+    flex-basis: 40%;
+}
+  
+.footer-form {
+    flex-basis: 60%;
+}
+  
+.footer-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+.footer-form input, .footer-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+  
+.footer-form button[type="submit"] {
+    background-color: #203d74;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.footer-form button[type="submit"]:hover {
+    background-color: #0b1322;
+}
+
+section h1{
+    font-family: 'Parisienne';
+    color: #c88a36;
+    text-decoration-line: underline;
+    text-align: center;
+    font-style: normal;
+    font-size: 50px;
+}
+
+#section-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#section-us p{
+    color: #d9d9d9;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#img-us{
+    margin-left: 270px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: groove 11px #c88a36;
+    background: url(https://cdn0.casamentos.com.br/vendor/9580/3_2/960/jpeg/whatsapp-image-2020-02-19-at-14-34-48-3_13_269580-158221698094596.jpeg);
+    width: 960px;
+    height: 640px;
+}
